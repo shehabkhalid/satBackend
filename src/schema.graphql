@@ -1,0 +1,17 @@
+
+type Table{
+
+    tableName:String
+    columns:[String]
+}
+
+
+type Query{
+
+    tables: [String]
+}
+
+type Mutation{
+
+    testt:String
+}
